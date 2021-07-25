@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>loja Online</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1>Material de Limpeza</h1>
+    <div id="image">
+      <img src="./assets/carrinhoCompras.png" alt="carrinho de compras">
+      <p>Itens no carrinho: <span>0</span></p>
+    </div>
+  </header>
+
+  <main id="main">
+   
+    <form id="form">
+      <table>
+        <caption>Cadastre-se e escolha seu material de limpeza</caption>
+        <tbody>
+          <tr>
+            <td class="input">Nome</td>
+            <td><input type="text" id="name"></td>
+          </tr>
+          <tr>
+            <td class="input">Sobrenome</td>
+            <td><input type="text" id="sobrenome"></td>
+          </tr>
+          <tr>
+            <td class="input" >Email</td>
+            <td><input type="text" id="email"></td>
+          </tr>
+          <tr>
+            <td class="input">Telefone</td>
+            <td><input type="text" id="telefone"></td>
+          </tr>
+          <tr>
+           <td class="input">Endereço</td>
+           <td> <input type="address" id="endereco"></td>
+          </tr>
+          
+          <tr id="button">
+            <td >
+              <input   type="submit" value="Cadastrar">
+              </td>
+              <td>
+              <input type="reset" value="Limpar">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+    <aside id="aside">
+      <div class="Produtos">
+        <img src="./assets/vasoura.png" alt="oi">
+        <h4>Vasoura</h4>
+        <span>DE NYLON</span>
+        <h5>R$ 11,50</h5>
+        <button id="btn" value="Produto: vasoura">Adicionar no carrinho</button>
+      </div>
+      <div class="Produtos">
+        <img src="./assets/detergente.png" alt="oi">
+        <h4>Detergente</h4>
+        <span>NEUTRO CONCENTRADO</span>
+        <h5>R$ 8,55</h5>
+        <button id="btn2" value=" Produto: detergente">Adicionar no carrinho</button>
+      </div>
+      <div class="Produtos">
+        <img src="./assets/esponja.png" alt="oi">
+        <h4>Esponja</h4>
+        <span>TIPO MULTIUSO</span>
+        <h5>R$ 2,50</h5>
+        <button id="btn3" value=" Produto: esponja">Adicionar no carrinho</button>
+      </div>
+      </aside>
+      </main>
+  
+
+  <footer>
+    <p>Todo os direitos reservados</p>
+  </footer>
+  <script src="./js/script.js"></script>
+</body>
+</html>

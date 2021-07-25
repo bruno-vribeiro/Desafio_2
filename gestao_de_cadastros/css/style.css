@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+}
+
+body {
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(39, 160, 39);
+}
+
+  header {
+    display: flex;   
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+    background-color: rgb(146, 184, 9); 
+  }
+
+  h1 {
+    margin: auto;
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+  }
+
+  div#image {
+    margin: auto;
+    padding: 30px;
+  }
+  aside {
+   display: grid; 
+   text-align: center; 
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   border-radius: 12px;
+  }
+  aside img {
+    width: 300px;
+    height: 300px;
+    background: rgb(39, 140, 39);
+    border-radius: 12px;
+    padding: 12px;
+    margin: 12px;
+  }
+
+  .Produtos {
+    display: grid;
+    justify-content: center;
+    
+    
+  }
+   
+  form{
+    line-height: 30px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+  
+  }
+
+  table {
+    margin: auto;
+    background-color:  rgb(39, 140, 39);
+    padding: 40px; 
+  }
+
+  caption{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom:10px ;
+    opacity: 0.6;
+    text-decoration: underline;
+  
+  }
+
+  .input {
+    font-size: 20px;
+    width: 150px;
+  }
+  button {
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(71, 96, 114);
+    color: rgb(238, 238, 238);
+    text-align: center;
+    cursor: pointer;
+  }
+
+  #button {
+      
+    border-radius: 5px;
+    border: none;
+    color: rgb(238, 238, 238);
+    text-align: center;
+    cursor: pointer;
+  }
+
+  footer {
+padding: 15px;
+/*position:absolute;
+top: 100%;
+bottom: 0; 
+left: 0;
+right: 0;*/
+text-align: center;
+
+}
